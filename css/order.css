@@ -1,0 +1,146 @@
+.content{
+	overflow: hidden;
+}
+.content h2{
+	font-size: 14px;
+	margin: 0;
+	line-height: 34px;
+}
+.content h2 a{
+	color: #2b2b2b;
+	font-family: "宋体";
+}
+.content .con_left{
+	overflow: hidden;
+	float: left;
+	text-align: center;
+}
+.content .con_left ul{
+	background: #f3f3f2;
+	border: 1px solid #bcbcbb;
+	width: 170px;
+}
+.content .con_left ul li{
+	font-family: "宋体";
+	padding-bottom: 10px;
+	border-bottom: 1px solid #bcbcbb;
+}
+.content .con_left ul li:nth-child(4){
+	border-bottom: none;
+}
+.content .con_left ul li:nth-child(4) a{
+	text-align: left;
+	padding-left: 50px;
+}
+.content .con_left ul li h3{
+	font-size: 14px;
+	color: #2b2b2b;
+	margin: 15px 0 5px 0;
+}
+.content .con_left ul li a{
+	font-family: "宋体";
+	color: #2b2b2b;
+	display: block;
+	line-height: 25px;
+}
+.content .con_right{
+	overflow: hidden;
+	float: right;
+	width: 1003px;
+	margin-top: 35px;
+}
+.content .con_right .con_top{
+	overflow: hidden;
+}
+.content .con_right .con_top a{
+	font-family: "宋体";
+	color: #353535;
+	margin-right: 50px;
+	line-height: 25px;
+}
+.content .con_right .con_top a.on{
+	color: #d2322a;
+}
+.content .con_right .con_top form{
+	float: right;
+}
+.content .con_right .con_top form input[type="text"]{
+	width: 198px;
+	height: 25px;
+	border: 1px solid #acacac;
+	background: #f5f6f6;
+	padding: 5px;
+}
+.content .con_right .con_top form input[type="button"]{
+	width: 98px;
+	height: 25px;
+	border: 1px solid #acacac;
+	background: #f5f6f6;
+	margin-left: 3px;
+	margin-right: 15px;
+}
+.content .con_right .list{
+	overflow: hidden;
+	width: 100%;
+}
+.content .con_right .list h3{
+	font-size: 14px;
+	margin: 0 0 0 120px;
+	line-height: 77px;
+}
+.content .con_right .list h3 span{
+	margin: 0 45px;
+}
+.content .con_right .list h3 span:first-child{
+	margin-left: 320px;
+}
+.content .con_right .list ul{
+	overflow: hidden;
+	width: 100%;
+}
+.content .con_right .list ul li{
+	overflow: hidden;
+	width: 100%;
+	margin-bottom: 20px;
+}
+.content .con_right .list ul li p{
+	font-family: "宋体";
+	color: #212020;
+	background: #c86c6c;
+	line-height: 33px;
+	padding-left: 10px;
+}
+.content .con_right .list ul li .mation{
+	overflow: hidden;
+	background: #e6bd88;
+	padding: 10px;
+}
+.content .con_right .list ul li .mation img{
+	float: left;
+}
+.content .con_right .list ul li .mation p a{
+	float: left;
+	background: none;
+	font-size: 12px;
+	line-height: 20px;
+	padding-left: 20px;
+	padding-right: 86px;
+}
+.content .con_right .list ul li .mation span{
+	font-family: "宋体";
+	margin: 40px;
+	color: #212020;
+	cursor: pointer;
+	float: left;
+	display: inline-block;
+}
+.content .con_right .list ul li .mation .er{
+	float: left;
+	text-align: center;
+	margin: 5px 35px;
+}
+.content .con_right .list ul li .mation a{
+	font-family: "宋体";
+	color: #212020;
+	line-height: 30px;
+}

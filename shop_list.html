@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>商品列表</title>
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/common.css" />
+		<link rel="stylesheet" href="css/shop_list.css" />
+		<script type="text/javascript" src="js/jquery-1.11.0.js" ></script>
+		<script type="text/javascript" src="js/style.js" ></script>
+		<script type="text/javascript" src="js/shop_list.js" ></script>
+		<script type="text/javascript" src="js/bootstrap.js" ></script>
+	</head>
+	<body>
+		<div class="header">
+			<div class="header_top">
+				<div class="container">
+					<div class="header_tl">
+						<p>欢迎来到酷漫居！ <a href="login.html">请登录</a> <a href="register.html">免费注册</a></p>
+					</div>
+					<div class="header_tr">
+						<p>
+							<a href="shop_cart.html"><img src="img/shop.png" /> 购物车</a>
+							<a href="user.html">会员中心</a>
+							<a href="order.html">我的订单</a>
+							<a href="###">我的收藏</a>
+							<a href="###">网站导航</a>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="header_con">
+				<div class="container">
+					<a href="index.html" class="header_cl">
+						<img src="img/logo.png" />
+					</a>
+					<a href="shop_cart.html" class="header_cr">
+						<img src="img/shop2.png" /> 
+						加入购物车
+					</a>
+					<form class="search">
+						<input type="text" /><input type="button" value="搜索" /><br />
+						<p>
+							<a href="shop_list.html" class="on">儿童床</a>
+							<a href="shop_list.html">儿童被子</a>
+							<a href="shop_list.html">儿童枕头</a>
+							<a href="shop_list.html">儿童床垫</a>
+							<a href="shop_list.html">儿童毛毯</a>
+							<a href="shop_list.html">儿童服装</a>
+						</p>
+					</form>
+				</div>
+			</div>
+			<div class="nav">
+				<div class="container">
+					<ul id="nav">
+						<li class="on">
+							<a href="###">全部商品分类<img src="img/sjx.png" /></a>
+							<dl>
+								<dd>
+									<h2><a href="shop_list.html">一键选择套餐</a></h2>
+									<img src="img/sjx2.png" />
+									<p>
+										<a href="shop_list.html">床</a><a href="shop_list.html">床垫</a><a href="shop_list.html">被子</a><a href="shop_list.html">枕头</a><a href="shop_list.html">毛毯</a><a href="shop_list.html">蚊帐</a>
+									</p>
+								</dd>
+								<dd>
+									<h2><a href="shop_list.html">床椅寝具</a></h2>
+									<img src="img/sjx2.png" />
+									<p>
+										<a href="shop_list.html">实木</a><a href="shop_list.html">人造板床</a><a href="shop_list.html">金属床</a><a href="shop_list.html">休闲椅</a>
+									</p>
+								</dd>
+								<dd>
+									<h2><a href="shop_list.html">枕头</a></h2>
+									<img src="img/sjx2.png" />
+									<p>
+										<a href="shop_list.html">化纤枕</a><a href="shop_list.html">羽绒枕</a><a href="shop_list.html">记忆枕</a><a href="shop_list.html">竹枕</a>
+									</p>
+								</dd>
+								<dd>
+									<h2><a href="shop_list.html">被子</a></h2>
+									<img src="img/sjx2.png" />
+									<p>
+										<a href="shop_list.html">羽绒被</a><a href="###">羊毛被</a><a href="shop_list.html">化纤被</a><a href="shop_list.html">亚麻被</a>
+									</p>
+								</dd>
+								<dd>
+									<h2><a href="###">床垫</a></h2>
+									<img src="img/sjx2.png" />
+									<p>
+										<a href="###">弹簧床垫</a><a href="###">乳胶床垫</a><a href="shop_list.html">水床垫</a>
+									</p>
+								</dd>
+								<dd>
+									<h2><a href="shop_list.html">毛毯</a></h2>
+									<img src="img/sjx2.png" />
+									<p>
+										<a href="shop_list.html">纯毛毯</a><a href="shop_list.html">混纺毛毯</a><a href="shop_list.html">化纤毛毯</a>
+									</p>
+								</dd>
+								<dd>
+									<h2><a href="shop_list.html">服装</a></h2>
+									<img src="img/sjx2.png" />
+									<p>
+										<a href="shop_list.html">上装</a><a href="shop_list.html">下装</a><a href="shop_list.html">裤装</a><a href="shop_list.html">套装</a><a href="shop_list.html">裙装</a>
+									</p>
+								</dd>
+							</dl>
+						</li>
+						<li><a href="index.html">首页</a></li>
+						<li><a href="shop_list.html">服装馆</a></li>
+						<li><a href="shop_list.html">家具日用馆</a></li>
+						<li><a href="shop_list.html">新品专区</a></li>
+						<li><a href="user.html">会员俱乐部</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="content">
+			<div class="container">
+				<div class="top_left">
+					<h2><a href="###">全部搜索分类</a> > <a href="###">羽绒被</a></h2>
+					<ul>
+						<li><h3>全部搜索分类</h3></li>
+						<li>
+							<label>
+								<input type="checkbox" id="reply1" /> 床椅寝具
+							</label>
+							<a href="pro_details.html" id="rep1" class="rep">床椅寝具</a>
+						</li>
+						<li>
+							<label>
+								<input type="checkbox" id="reply2" /> 被子
+							</label>
+							<a href="pro_details.html" id="rep2" class="rep">羽绒被</a>
+						</li>
+						<li>
+							<label>
+								<input type="checkbox" id="reply3" /> 毛毯
+							</label>
+							<a href="pro_details.html" id="rep3" class="rep">毛毯</a>
+						</li>
+						<li>
+							<label>
+								<input type="checkbox" id="reply4" /> 服装
+							</label>
+							<a href="pro_details.html" id="rep4" class="rep">服装</a>
+						</li>
+						<li>
+							<label>
+								<input type="checkbox" id="reply5" /> 窗帘
+							</label>
+							<a href="pro_details.html" id="rep5" class="rep">窗帘</a>
+						</li>
+						<li>
+							<label>
+								<input type="checkbox" id="reply6" /> 墙画
+							</label>
+							<a href="pro_details.html" id="rep6" class="rep">墙画</a>
+						</li>
+						<li>
+							<label>
+								<input type="checkbox" id="reply7" /> 玩具
+							</label>
+							<a href="pro_details.html" id="rep7" class="rep">玩具</a>
+						</li>
+						<li>
+							<label>
+								<input type="checkbox" id="reply8" /> 枕头
+							</label>
+							<a href="pro_details.html" id="rep8" class="rep">枕头</a>
+						</li>
+						<li>
+							<a href="###" id="reply9">
+								查看更多分类  <img src="img/sjx3.png" />
+							</a>
+							<a href="###" id="rep9" class="rep">更多分类</a>
+						</li>
+					</ul>
+				</div>
+				<div class="top_right">
+					<h2>
+						相关搜索：
+						<a href="###">羊毛被</a>
+						<a href="###">化纤被</a>
+						<a href="###">蚕丝被</a>
+						<a href="###">棉被</a>
+						<a href="###">驼绒被</a>
+						<a href="###">亚麻被</a>
+					</h2>
+					<div class="top_content">
+						<h3><span>羽绒被</span>搜索到<span>536</span>件相关商品</h3>
+						<div class="brand">
+							<ol>
+								<li>品牌</li>
+								<li>
+									<a href="###">
+										<img src="img/shop_list1.jpg" class="on" />
+									</a>
+								</li>
+								<li>
+									<a href="###">
+										<img src="img/shop_list2.jpg" />
+									</a>
+								</li>
+								<li>
+									<a href="###">
+										<img src="img/shop_list3.jpg" />
+									</a>
+								</li>
+								<li>
+									<a href="###">
+										<img src="img/shop_list4.jpg" />
+									</a>
+								</li>
+								<li>
+									<a href="###">更多<b>></b></a>
+								</li>
+							</ol>
+						</div>
+						<div class="screening">
+							<p>大家都在选
+								<a href="###"><span>床</span></a>
+								<a href="###"><span>床垫</span></a>
+								<a href="###"><span>被子</span></a>
+								<a href="###"><span>枕头</span></a>
+								<a href="###"><span>毛毯</span></a>
+							</p>
+						</div>
+						<div class="screening">
+							<p>填充材质
+								<a href="###"><span>羽绒</span></a>
+								<a href="###"><span>羽毛</span></a>
+								<a href="###"><span>其他</span></a>
+							</p>
+						</div>
+						<div class="screening">
+							<p>规格尺寸
+								<a href="###"><span class="sfct">150X200cm</span></a>
+								<a href="###"><span class="sfct">200X240cm</span></a>
+								<a href="###"><span class="sfct">180X220cm</span></a>
+								<a href="###"><span class="sfct">200X230cm</span></a>
+								<a href="###"><span class="sfct">230X250cm</span></a>
+								<a href="###"><span class="sfct">其他</span></a>
+							</p>
+						</div>
+						<div class="screening">
+							<p>更多筛选项
+								<a href="###"><span class="mam">春秋被</span></a>
+								<a href="###"><span class="mam">蚕丝被</span></a>
+								<a href="###"><span class="mam">四季被</span></a>
+								<a href="###"><span class="mam">双人被</span></a>
+								<a href="###"><span class="mam">子母被</span></a>
+								<a href="###"><span class="mam">纤维被</span></a>
+							</p>
+						</div>
+					</div>
+					<div class="choose">
+						<div class="sales">
+							<p>
+								<a href="###">
+									<span>默认</span>
+								</a>
+								<a href="###">
+									<span class="on">销量</span>
+								</a>
+								<a href="###">
+									<span>评价</span>
+								</a>
+								<a href="###">
+									<span>价格</span>
+								</a>
+							</p>
+							<input type="text" class="text_box" /> - <input type="text" class="text_box" />
+						</div>
+						<div class="delivery">
+								送至：
+								<select name="" id="sheng">
+									<option value="0">请选择省份</option>
+								</select>
+								<select name="" id="city">
+									<option value="0">请选择市区</option>
+								</select>
+								<label>
+									<input type="checkbox" />有货商品
+								</label>
+								<label>
+									<input type="checkbox" />新品上市
+								</label>
+								<label>
+									<input type="checkbox" />返劵
+								</label>
+								<label>
+									<input type="checkbox" />直降
+								</label>
+						</div>
+					</div>
+				</div>
+				<div class="con_left">
+					<ul>
+						<li>
+							<a href="pro_details.html">
+								<img src="img/shop_list5.jpg" />
+							</a>
+							<span>￥86.00</span>
+							<h3>
+								<span>包邮</span>
+								<a href="pro_details.html">童装女童冬装套装加厚男童三四岁小孩衣服新年装</a>
+							</h3>
+						</li>
+						<li>
+							<a href="pro_details.html">
+								<img src="img/shop_list6.jpg" />
+							</a>
+							<span>￥86.00</span>
+							<h3>
+								<span>包邮</span>
+								<a href="pro_details.html">童装女童冬装套装加厚男童三四岁小孩衣服新年装</a>
+							</h3>
+						</li>
+						<li>
+							<a href="pro_details.html">
+								<img src="img/shop_list7.jpg" />
+							</a>
+							<span>￥86.00</span>
+							<h3>
+								<span>包邮</span>
+								<a href="pro_details.html">童装女童冬装套装加厚男童三四岁小孩衣服新年装</a>
+							</h3>
+						</li>
+						<li>
+							<a href="pro_details.html">
+								<img src="img/shop_list8.jpg" />
+							</a>
+							<span>￥86.00</span>
+							<h3>
+								<span>包邮</span>
+								<a href="pro_details.html">童装女童冬装套装加厚男童三四岁小孩衣服新年装</a>
+							</h3>
+						</li>
+					</ul>
+				</div>
+				<div class="con_right">
+					<ol>
+						<li>
+							<a href="pro_details.html">
+								<img src="img/shop_list9.jpg" />
+							</a>
+							<span>￥86.00</span>
+							<h3>
+								<span>包邮</span>
+								<a href="pro_details.html">童装女童冬装套装加厚男童二三四岁小孩衣服新年装</a>
+							</h3>
+							<div class="bt_add">
+								<span class="bt addition">加入购物车</span>
+								<span class="bt">收藏</span>
+								<span class="bt">对比</span>
+							</div>
+						</li>
+						<li>
+							<a href="pro_details.html">
+								<img src="img/shop_list10.jpg" />
+							</a>
+							<span>￥86.00</span>
+							<h3>
+								<span>包邮</span>
+								<a href="pro_details.html">童装女童冬装套装加厚男童二三四岁小孩衣服新年装</a>
+							</h3>
+							<div class="bt_add">
+								<span class="bt addition">加入购物车</span>
+								<span class="bt">收藏</span>
+								<span class="bt">对比</span>
+							</div>
+						</li>
+						<li>
+							<a href="pro_details.html">
+								<img src="img/shop_list11.jpg" />
+							</a>
+							<span>￥86.00</span>
+							<h3>
+								<span>包邮</span>
+								<a href="pro_details.html">童装女童冬装套装加厚男童二三四岁小孩衣服新年装</a>
+							</h3>
+							<div class="bt_add">
+								<span class="bt addition">加入购物车</span>
+								<span class="bt">收藏</span>
+								<span class="bt">对比</span>
+							</div>
+						</li>
+						<li>
+							<a href="pro_details.html">
+								<img src="img/shop_list12.jpg" />
+							</a>
+							<span>￥86.00</span>
+							<h3>
+								<span>包邮</span>
+								<a href="pro_details.html">童装女童冬装套装加厚男童二三四岁小孩衣服新年装</a>
+							</h3>
+							<div class="bt_add">
+								<span class="bt addition">加入购物车</span>
+								<span class="bt">收藏</span>
+								<span class="bt">对比</span>
+							</div>
+						</li>
+						<li>
+							<a href="pro_details.html">
+								<img src="img/shop_list13.jpg" />
+							</a>
+							<span>￥86.00</span>
+							<h3>
+								<span>包邮</span>
+								<a href="pro_details.html">童装女童冬装套装加厚男童二三四岁小孩衣服新年装</a>
+							</h3>
+							<div class="bt_add">
+								<span class="bt addition">加入购物车</span>
+								<span class="bt">收藏</span>
+								<span class="bt">对比</span>
+							</div>
+						</li>
+						<li>
+							<a href="pro_details.html">
+								<img src="img/shop_list14.jpg" />
+							</a>
+							<span>￥86.00</span>
+							<h3>
+								<span>包邮</span>
+								<a href="pro_details.html">童装女童冬装套装加厚男童二三四岁小孩衣服新年装</a>
+							</h3>
+							<div class="bt_add">
+								<span class="bt addition">加入购物车</span>
+								<span class="bt">收藏</span>
+								<span class="bt">对比</span>
+							</div>
+						</li>
+						<li>
+							<a href="pro_details.html">
+								<img src="img/shop_list15.jpg" />
+							</a>
+							<span>￥86.00</span>
+							<h3>
+								<span>包邮</span>
+								<a href="pro_details.html">童装女童冬装套装加厚男童二三四岁小孩衣服新年装</a>
+							</h3>
+							<div class="bt_add">
+								<span class="bt addition">加入购物车</span>
+								<span class="bt">收藏</span>
+								<span class="bt">对比</span>
+							</div>
+						</li>
+						<li>
+							<a href="pro_details.html">
+								<img src="img/shop_list11.jpg" />
+							</a>
+							<span>￥86.00</span>
+							<h3>
+								<span>包邮</span>
+								<a href="pro_details.html">童装女童冬装套装加厚男童二三四岁小孩衣服新年装</a>
+							</h3>
+							<div class="bt_add">
+								<span class="bt addition">加入购物车</span>
+								<span class="bt">收藏</span>
+								<span class="bt">对比</span>
+							</div>
+						</li>
+						<li>
+							<a href="pro_details.html">
+								<img src="img/shop_list9.jpg" />
+							</a>
+							<span>￥86.00</span>
+							<h3>
+								<span>包邮</span>
+								<a href="pro_details.html">童装女童冬装套装加厚男童二三四岁小孩衣服新年装</a>
+							</h3>
+							<div class="bt_add">
+								<span class="bt addition">加入购物车</span>
+								<span class="bt">收藏</span>
+								<span class="bt">对比</span>
+							</div>
+						</li>
+						<li>
+							<a href="pro_details.html">
+								<img src="img/shop_list10.jpg" />
+							</a>
+							<span>￥86.00</span>
+							<h3>
+								<span>包邮</span>
+								<a href="pro_details.html">童装女童冬装套装加厚男童二三四岁小孩衣服新年装</a>
+							</h3>
+							<div class="bt_add">
+								<span class="bt addition">加入购物车</span>
+								<span class="bt">收藏</span>
+								<span class="bt">对比</span>
+							</div>
+						</li>
+						<li>
+							<a href="pro_details.html">
+								<img src="img/shop_list11.jpg" />
+							</a>
+							<span>￥86.00</span>
+							<h3>
+								<span>包邮</span>
+								<a href="pro_details.html">童装女童冬装套装加厚男童二三四岁小孩衣服新年装</a>
+							</h3>
+							<div class="bt_add">
+								<span class="bt addition">加入购物车</span>
+								<span class="bt">收藏</span>
+								<span class="bt">对比</span>
+							</div>
+						</li>
+						<li>
+							<a href="pro_details.html">
+								<img src="img/shop_list12.jpg" />
+							</a>
+							<span>￥86.00</span>
+							<h3>
+								<span>包邮</span>
+								<a href="pro_details.html">童装女童冬装套装加厚男童二三四岁小孩衣服新年装</a>
+							</h3>
+							<div class="bt_add">
+								<span class="bt addition">加入购物车</span>
+								<span class="bt">收藏</span>
+								<span class="bt">对比</span>
+							</div>
+						</li>
+						<li>
+							<a href="pro_details.html">
+								<img src="img/shop_list13.jpg" />
+							</a>
+							<span>￥86.00</span>
+							<h3>
+								<span>包邮</span>
+								<a href="pro_details.html">童装女童冬装套装加厚男童二三四岁小孩衣服新年装</a>
+							</h3>
+							<div class="bt_add">
+								<span class="bt addition">加入购物车</span>
+								<span class="bt">收藏</span>
+								<span class="bt">对比</span>
+							</div>
+						</li>
+						<li>
+							<a href="pro_details.html">
+								<img src="img/shop_list14.jpg" />
+							</a>
+							<span>￥86.00</span>
+							<h3>
+								<span>包邮</span>
+								<a href="pro_details.html">童装女童冬装套装加厚男童二三四岁小孩衣服新年装</a>
+							</h3>
+							<div class="bt_add">
+								<span class="bt addition">加入购物车</span>
+								<span class="bt">收藏</span>
+								<span class="bt">对比</span>
+							</div>
+						</li>
+						<li>
+							<a href="pro_details.html">
+								<img src="img/shop_list15.jpg" />
+							</a>
+							<span>￥86.00</span>
+							<h3>
+								<span>包邮</span>
+								<a href="pro_details.html">童装女童冬装套装加厚男童二三四岁小孩衣服新年装</a>
+							</h3>
+							<div class="bt_add">
+								<span class="bt addition">加入购物车</span>
+								<span class="bt">收藏</span>
+								<span class="bt">对比</span>
+							</div>
+						</li>
+						<li>
+							<a href="pro_details.html">
+								<img src="img/shop_list11.jpg" />
+							</a>
+							<span>￥86.00</span>
+							<h3>
+								<span>包邮</span>
+								<a href="pro_details.html">童装女童冬装套装加厚男童二三四岁小孩衣服新年装</a>
+							</h3>
+							<div class="bt_add">
+								<span class="bt addition">加入购物车</span>
+								<span class="bt">收藏</span>
+								<span class="bt">对比</span>
+							</div>
+						</li>
+					</ol>
+					<div class="con_but">
+						<ul>
+							<li><a href="###">上一页</a></li>
+							<li><a href="###" class="on">1</a></li>
+							<li><a href="###">2</a></li>
+							<li><a href="###">3</a></li>
+							<li>...</li>
+							<li><a href="###">23</a></li>
+							<li><a href="###">下一页</a></li>
+							<li>向第 <input type="text" class="text_box" maxlength="3" /> 页</li>
+							<li><a href="###">跳转</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="like">
+			<div class="container">
+				<h2>猜你喜欢</h2>
+					<ul>
+						<li>
+							<a href="pro_details.html">
+								<img src="img/shop_list16.jpg" />
+							</a>
+								<p><span>包邮价</span> ￥86.00</p>
+								<h3> <a href="pro_details.html">地中海风格,迪士尼风格设计儿童床 1.5米单人儿童床</a></h3>
+						</li>
+						<li>
+							<a href="pro_details.html">
+								<img src="img/shop_list17.jpg" />
+							</a>
+								<p><span>包邮价</span> ￥86.00</p>
+								<h3> <a href="pro_details.html">地中海风格,迪士尼风格设计儿童床 1.5米单人儿童床</a></h3>
+						</li>
+						<li>
+							<a href="pro_details.html">
+								<img src="img/shop_list18.jpg" />
+							</a>
+								<p><span>包邮价</span> ￥86.00</p>
+								<h3> <a href="pro_details.html">地中海风格,迪士尼风格设计儿童床 1.5米单人儿童床</a></h3>
+						</li>
+						<li>
+							<a href="pro_details.html">
+								<img src="img/shop_list19.jpg" />
+							</a>
+								<p><span>包邮价</span> ￥86.00</p>
+								<h3> <a href="pro_details.html">地中海风格,迪士尼风格设计儿童床 1.5米单人儿童床</a></h3>
+						</li>
+					</ul>
+			</div>	
+		</div>
+		<div class="buttom">
+			<div class="container">
+				<ul>
+					<li>
+						<img src="img/bottom1.png" /><h2>品质</h2>
+						<h3>全球化采购，正品保障</h3>
+					</li>
+					<li>
+						<img src="img/bottom2.png" /><h2>便捷</h2>
+						<h3>一站式服务，送货上门</h3>
+					</li>
+					<li>
+						<img src="img/bottom3.png" /><h2>专业</h2>
+						<h3>顾问式客服，全年无休</h3>
+					</li>
+					<li>
+						<img src="img/bottom4.png" /><h2>贴心</h2>
+						<h3>个性化导购，售后无忧</h3>
+					</li>
+				</ul>
+				<dl>
+					<dt>购物指南</dt>
+					<dd><a href="###">购物流程</a></dd>
+					<dd><a href="###">常见问题</a></dd>
+					<dd><a href="###">优惠码(卷)</a></dd>
+				</dl>
+				<dl>
+					<dt>支付方式</dt>
+					<dd><a href="###">货到付款</a></dd>
+					<dd><a href="###">在线支付</a></dd>
+				</dl>
+				<dl>
+					<dt>配送方式</dt>
+					<dd><a href="###">运费及时效</a></dd>
+					<dd><a href="###">品牌专场配送方式</a></dd>
+				</dl>
+				<dl>
+					<dt>售后服务</dt>
+					<dd><a href="###">退换货原则</a></dd>
+					<dd><a href="###">退换货流程</a></dd>
+					<dd><a href="###">退换货周期</a></dd>
+				</dl>
+				<dl>
+					<dt>关于我们</dt>
+					<dd><a href="###">企业理念</a></dd>
+					<dd><a href="###">网站合作</a></dd>
+					<dd><a href="###">人才招聘</a></dd>
+				</dl>
+				<dl>
+					<dt>联系我们</dt>
+					<dd><a href="###">新浪微博</a></dd>
+					<dd><a href="###">联系客服</a></dd>
+					<dd><a href="###">我要投诉</a></dd>
+				</dl>
+			</div>
+			<div class="copyright">
+				<div class="container">
+					<ul>
+						<li><a href="index.html">首页</a></li>
+						<li><a href="###">公司简介</a></li>
+						<li><a href="###">人才招聘</a></li>
+						<li><a href="###">合作联系</a></li>
+						<li><a href="###">企业理念</a></li>
+					</ul>
+					<p>由本网站发布的商品或服务的商业宣传活动均属“广告”</p>
+					<p>
+						Copyright&copy;2003 - 2016 广州酷漫儿童家居有限公司 kumanretozijia.com All Rights Reserved 
+						客服热线：021-51830000 5006203000
+					</p>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/common.js" ></script>
+	</body>
+</html>

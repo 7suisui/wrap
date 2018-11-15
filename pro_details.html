@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>商品详情</title>
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/common.css" />
+		<link rel="stylesheet" href="css/pro_details.css" />
+		<link rel="stylesheet" href="css/magnifying.css" />
+		<script type="text/javascript" src="js/jquery-1.11.0.js" ></script>
+		<script type="text/javascript" src="js/jquery.colorbox-min.js" ></script>
+		<script type="text/javascript" src="js/style.js" ></script>
+		<script type="text/javascript" src="js/pro_details.js" ></script>
+		<script type="text/javascript" src="js/magnifying.js" ></script>
+		<script type="text/javascript" src="js/bootstrap.js" ></script>
+	</head>
+	<body>
+		<div class="header">
+			<div class="header_top">
+				<div class="container">
+					<div class="header_tl">
+						<p>欢迎来到酷漫居！ <a href="login.html">请登录</a> <a href="register.html">免费注册</a></p>
+					</div>
+					<div class="header_tr">
+						<p>
+							<a href="shop_cart.html"><img src="img/shop.png" /> 购物车</a>
+							<a href="user.html">会员中心</a>
+							<a href="order.html">我的订单</a>
+							<a href="###">我的收藏</a>
+							<a href="###">网站导航</a>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="header_con">
+				<div class="container">
+					<a href="index.html" class="header_cl">
+						<img src="img/logo.png" />
+					</a>
+					<a href="shop_cart.html" class="header_cr">
+						<img src="img/shop2.png" /> 
+						加入购物车
+					</a>
+					<form class="search">
+						<input type="text" /><input type="button" value="搜索" /><br />
+						<p>
+							<a href="shop_list.html" class="on">儿童床</a>
+							<a href="shop_list.html">儿童被子</a>
+							<a href="shop_list.html">儿童枕头</a>
+							<a href="shop_list.html">儿童床垫</a>
+							<a href="shop_list.html">儿童毛毯</a>
+							<a href="shop_list.html">儿童服装</a>
+						</p>
+					</form>
+				</div>
+			</div>
+			<div class="nav">
+				<div class="container">
+					<ul id="nav">
+						<li class="on">
+							<a href="###">全部商品分类<img src="img/sjx.png" /></a>
+							<dl>
+								<dd>
+									<h2><a href="shop_list.html">一键选择套餐</a></h2>
+									<img src="img/sjx2.png" />
+									<p>
+										<a href="shop_list.html">床</a><a href="shop_list.html">床垫</a><a href="shop_list.html">被子</a><a href="shop_list.html">枕头</a><a href="shop_list.html">毛毯</a><a href="shop_list.html">蚊帐</a>
+									</p>
+								</dd>
+								<dd>
+									<h2><a href="shop_list.html">床椅寝具</a></h2>
+									<img src="img/sjx2.png" />
+									<p>
+										<a href="shop_list.html">实木</a><a href="shop_list.html">人造板床</a><a href="shop_list.html">金属床</a><a href="shop_list.html">休闲椅</a>
+									</p>
+								</dd>
+								<dd>
+									<h2><a href="shop_list.html">枕头</a></h2>
+									<img src="img/sjx2.png" />
+									<p>
+										<a href="shop_list.html">化纤枕</a><a href="shop_list.html">羽绒枕</a><a href="shop_list.html">记忆枕</a><a href="shop_list.html">竹枕</a>
+									</p>
+								</dd>
+								<dd>
+									<h2><a href="shop_list.html">被子</a></h2>
+									<img src="img/sjx2.png" />
+									<p>
+										<a href="shop_list.html">羽绒被</a><a href="###">羊毛被</a><a href="shop_list.html">化纤被</a><a href="shop_list.html">亚麻被</a>
+									</p>
+								</dd>
+								<dd>
+									<h2><a href="###">床垫</a></h2>
+									<img src="img/sjx2.png" />
+									<p>
+										<a href="###">弹簧床垫</a><a href="###">乳胶床垫</a><a href="shop_list.html">水床垫</a>
+									</p>
+								</dd>
+								<dd>
+									<h2><a href="shop_list.html">毛毯</a></h2>
+									<img src="img/sjx2.png" />
+									<p>
+										<a href="shop_list.html">纯毛毯</a><a href="shop_list.html">混纺毛毯</a><a href="shop_list.html">化纤毛毯</a>
+									</p>
+								</dd>
+								<dd>
+									<h2><a href="shop_list.html">服装</a></h2>
+									<img src="img/sjx2.png" />
+									<p>
+										<a href="shop_list.html">上装</a><a href="shop_list.html">下装</a><a href="shop_list.html">裤装</a><a href="shop_list.html">套装</a><a href="shop_list.html">裙装</a>
+									</p>
+								</dd>
+							</dl>
+						</li>
+						<li><a href="index.html">首页</a></li>
+						<li><a href="shop_list.html">服装馆</a></li>
+						<li><a href="shop_list.html">家具日用馆</a></li>
+						<li><a href="shop_list.html">新品专区</a></li>
+						<li><a href="user.html">会员俱乐部</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="content">
+			<div class="container">
+				<h2>
+					全部搜索分类 <b>></b> <a href="pro_details.html">被子</a> <b>></b>
+					<a href="pro_details.html">羽绒被</a> <b>></b>
+					<a href="pro_details.html">富安娜</a>
+				</h2>
+				<div class="title"><h3>慧爱富安娜家纺羽绒被芯加厚保暖羽绒冬被礼品会销羽绒被厂家直销</h3></div>
+				<div class="goods">
+					<div class="con-FangDa" id="fangdajing">
+						<div class="con-fangDaIMg" id="product_img">
+							<!-- 正常显示的图片-->
+							<img src="img/pro1.jpg">
+							<!-- 滑块-->
+							<div class="magnifyingBegin"></div>
+							<!-- 放大镜显示的图片 -->
+							<div class="magnifyingShow"><img src="img/pro1.jpg"></div>
+						</div>
+		
+						<ul class="con-FangDa-ImgList">
+							<!-- 图片显示列表 -->
+							<li class="active"><img src="img/pro2.jpg" data-bigimg="img/pro1.jpg"></li>
+							<li><img src="img/pro3.jpg" data-bigimg="img/pro5.png"></li>
+							<li><img src="img/pro4.jpg" data-bigimg="img/pro6.png"></li>
+						</ul>
+					</div>
+					<div class="middle sys_item_spec">
+						<div class="price">
+							<p>价格<span>￥<span class="sys_item_price">668.00</span></span></p>
+							<p>起批量<span class="underline">></span><b>1 床</b></p>
+						</div>
+						<div class="preferential">
+							<p><span>优惠</span>满0.01元包物流（酷漫家居网站新人）</p>
+							<p><span>物流</span>广东 广州&nbsp;卖家承担运费</p>
+							<p>
+								<span class="underline">成交\评价</span>
+								<a href="###"><img src="img/pxx.png" /></a>
+								<a href="###"><img src="img/pxx.png" /></a>
+								<a href="###"><img src="img/pxx.png" /></a>
+								<a href="###"><img src="img/pxx.png" /></a>
+								<a href="###"><img src="img/pxx.png" /></a>
+								<a href="###" class="deal"><span>93</span>床成交</a>
+								<a href="com_details.html" class="deal"><span>618</span>条评论</a>
+							</p>
+						</div>
+						<div class="flowers sys_item_specpara">
+							<span>花型</span>
+							<ul>
+								<li data-aid="3">
+									<div class="pic_color">
+										<a href="###">
+											<img src="img/pro7.png" />
+											<b>波浪纹</b>
+										</a>
+									</div>
+									
+								</li>
+								<li data-aid="4">
+									<div class="pic_color">
+										<a href="###">
+											<img src="img/pro8.png" />
+											<b>浪漫紫</b>
+										</a>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="size sys_item_specpara">
+							<p>尺寸规格</p>
+							<ul>
+								<li data-aid="13">
+									<span>150X200cm</span>
+								</li>
+								<li data-aid="14">
+									<span>200X230cm</span>
+								</li>
+								<li data-aid="16">
+									<span>220X240cm</span>
+								</li>
+							</ul>
+						</div>
+						<div class="buy">
+							<a href="pay.html" class="buy_or">立即订购</a>
+							<span class="join" id="addCar">加入购物车</span>
+							<label>
+								<span class="min"><img src="img/jian.png" /></span>
+								<input type="text" value="1" name="" class="text_box" maxlength="3" />
+								<span class="add"><img src="img/jia.png" /></span>
+							</label>
+							<p>
+								实力保障
+								<span><img src="img/c1.png" /> 材质保障</span>
+								<span><img src="img/c2.png" /> 15天包换</span>
+								<span><img src="img/c3.png" /> 48小时发货</span>
+								<span><img src="img/c4.png" /> 买家保障</span>
+								<span><img src="img/c5.png" /> 破损寄补</span>
+							</p>
+							<p>
+								支付方式
+								<a href="pay.html">支付宝</a>
+								<a href="pay.html">网上银行</a>
+								<a href="pay.html">帐期支付</a>
+							</p>
+						</div>
+					</div>
+					<div class="goods_right" id="box">
+						<h3>买家还在看</h3>
+						<ul id="ul_img_ad">
+							<li>
+								<span>
+									<a href="pro_details.html">
+										<img src="img/see1.jpg" />
+									</a>
+									<a href="pro_details.html">￥388</a>
+								</span>
+								<span>
+									<a href="pro_details.html">
+										<img src="img/see2.jpg" />
+									</a>
+									<a href="pro_details.html">￥588</a>
+								</span>
+								<span>
+									<a href="pro_details.html">
+										<img src="img/see3.jpg" />
+									</a>
+									<a href="pro_details.html">￥36</a>
+								</span>
+							</li>
+							<li>
+								<span>
+									<a href="pro_details.html">
+										<img src="img/see2.jpg" />
+									</a>
+									<a href="pro_details.html">￥588</a>
+								</span>
+								<span>
+									<a href="pro_details.html">
+										<img src="img/see3.jpg" />
+									</a>
+									<a href="pro_details.html">￥36</a>
+								</span>
+								<span>
+									<a href="pro_details.html">
+										<img src="img/see1.jpg" />
+									</a>
+									<a href="pro_details.html">￥388</a>
+								</span>
+							</li>
+							<li>
+								<span>
+									<a href="pro_details.html">
+										<img src="img/see3.jpg" />
+									</a>
+									<a href="pro_details.html">￥36</a>
+								</span>
+								<span>
+									<a href="pro_details.html">
+										<img src="img/see1.jpg" />
+									</a>
+									<a href="pro_details.html">￥388</a>
+								</span>
+								<span>
+									<a href="pro_details.html">
+										<img src="img/see2.jpg" />
+									</a>
+									<a href="pro_details.html">￥588</a>
+								</span>
+							</li>
+						</ul>
+						<div class="page" id="ol_circle">
+							<a href="###" id="prev"><img src="img/c6.png" /></a>
+							<span class="on"></span><span></span><span></span>
+							<a href="###" id="next"><img src="img/c7.png" /></a>
+						</div>
+					</div>
+				</div>
+				<ol>
+					<li>
+						<a href="pro_details.html">
+							<img src="img/shop_list11.jpg" />
+						</a>
+						<span>￥86.00</span>
+						<h3>
+							<span>包邮</span>
+							<a href="pro_details.html">童装女童冬装套装加厚男童二三四岁小孩衣服新年装</a>
+						</h3>
+					</li>
+					<li>
+						<a href="pro_details.html">
+							<img src="img/shop_list13.jpg" />
+						</a>
+						<span>￥86.00</span>
+						<h3>
+							<span>包邮</span>
+							<a href="pro_details.html">童装女童冬装套装加厚男童二三四岁小孩衣服新年装</a>
+						</h3>
+					</li>
+					<li>
+						<a href="pro_details.html">
+							<img src="img/shop_list14.jpg" />
+						</a>
+						<span>￥86.00</span>
+						<h3>
+							<span>包邮</span>
+							<a href="pro_details.html">童装女童冬装套装加厚男童二三四岁小孩衣服新年装</a>
+						</h3>
+					</li>
+					<li>
+						<a href="pro_details.html">
+							<img src="img/shop_list15.jpg" />
+						</a>
+						<span>￥86.00</span>
+						<h3>
+							<span>包邮</span>
+							<a href="pro_details.html">童装女童冬装套装加厚男童二三四岁小孩衣服新年装</a>
+						</h3>
+					</li>
+					<li>
+						<a href="pro_details.html">
+							<img src="img/shop_list11.jpg" />
+						</a>
+						<span>￥86.00</span>
+						<h3>
+							<span>包邮</span>
+							<a href="pro_details.html">童装女童冬装套装加厚男童二三四岁小孩衣服新年装</a>
+						</h3>
+					</li>
+				</ol>
+				<div class="det">
+					<ul>
+						<li>
+							<a href="pro_details.html">
+								<img src="img/see4.jpg" />
+							</a>
+							<span>￥86.00</span>
+							<h3>
+								<span>包邮</span>
+								<a href="pro_details.html">童装女童冬装套装加厚男童二三四岁小孩衣服新年装</a>
+							</h3>
+						</li>
+						<li>
+							<a href="pro_details.html">
+								<img src="img/see5.jpg" />
+							</a>
+							<span>￥86.00</span>
+							<h3>
+								<span>包邮</span>
+								<a href="pro_details.html">童装女童冬装套装加厚男童二三四岁小孩衣服新年装</a>
+							</h3>
+						</li>
+						<li>
+							<a href="pro_details.html">
+								<img src="img/see6.jpg" />
+							</a>
+							<span>￥86.00</span>
+							<h3>
+								<span>包邮</span>
+								<a href="pro_details.html">童装女童冬装套装加厚男童二三四岁小孩衣服新年装</a>
+							</h3>
+						</li>
+						<li>
+							<a href="pro_details.html">
+								<img src="img/see7.jpg" />
+							</a>
+							<span>￥86.00</span>
+							<h3>
+								<span>包邮</span>
+								<a href="pro_details.html">童装女童冬装套装加厚男童二三四岁小孩衣服新年装</a>
+							</h3>
+						</li>
+					</ul>
+					<div class="det_gd">
+						<ul>
+							<li class="on">
+								<a href="###">商品详情</a>
+							</li>
+							<li>
+								<a href="###">成交</a>
+							</li>
+							<li>
+								<a href="###">评价(618)</a>
+							</li>
+							<li>
+								<a href="###">咨询(64)</a>
+							</li>
+						</ul>
+						<div class="all">
+							<div class="according">
+								<table>
+									<tr>
+										<td class="dr">品牌</td>
+										<td>衫木</td>
+										<td class="dr">货号</td>
+										<td>CP-YRB</td>
+										<td class="dr">被子重量</td>
+										<td>3.1-4 斤</td>
+									</tr>
+									<tr>
+										<td class="dr">面料主成分含量</td>
+										<td>100</td>
+										<td class="dr">面料次成分</td>
+										<td>棉</td>
+										<td class="dr">面料次成分含量</td>
+										<td>100</td>
+									</tr>
+									<tr>
+										<td class="dr">克重</td>
+										<td>可定制</td>
+										<td class="dr">加工定制</td>
+										<td>是</td>
+										<td class="dr">是否支持一件代发</td>
+										<td>支持</td>
+									</tr>
+								</table>
+								<div class="det_con">
+									<a href="###"><img src="img/see8.jpg" /></a>
+									<h3><a href="pro_details.html">星级宾馆酒店羽绒被 加厚冬季羽绒被芯<br /><span>羽绒夏薄被</span></a></h3>
+									<p>
+										羽绒是长在鹅、鸭的腹部，成芦花朵状的绒毛，成片状的叫羽毛。
+										由于羽绒是一种动物性蛋白质纤维，羽绒球状纤维上密布千万个三角形的细小气孔，
+										能随气温变化而收缩膨胀，产生调温。羽绒是长在鹅、鸭的腹部，成芦花朵状的绒毛，成片状的叫羽毛。
+										由于羽绒是一种动物性蛋白质纤维，羽绒球状纤维上密布千万个三角形的细小气孔，能随气温变化而收缩膨胀，产生调温。
+									</p>
+									<a href="pro_details.html"><img src="img/see9.jpg" /></a>
+									<h4>采用<br />100%<br />全棉</h4>
+									<h5>133*100<br />防羽布<br />面料</h5>
+								</div>
+							</div>
+							<div class="deal">
+								<h3>好多成交</h3>
+							</div>
+							<div class="com_h">
+								<div class="high">
+									<p>96%<br /><span>好评率</span></p>
+									<a href="###">好评(96%)</a><br />
+									<a href="###">中评(3%)</a><br />
+									<a href="###">差评(1%)</a>
+								</div>
+								<p class="det_print">
+									<a href="###">全部评论</a>
+									<a href="###">晒图</a>
+								</p>
+								<span></span>
+								<div class="us_com">
+									<div class="portrait">
+										<a href="###"><img src="img/us_com.png" /></a>
+										<a href="###">135******41</a>
+									</div>
+									<p>
+										<a href="###"><img src="img/pxx.png" /></a>
+										<a href="###"><img src="img/pxx.png" /></a>
+										<a href="###"><img src="img/pxx.png" /></a>
+										<a href="###"><img src="img/pxx.png" /></a>
+										<a href="###"><img src="img/pxx.png" /></a>
+									</p>
+									用了几天非常舒服，非常好。好评！赞赞赞！
+									<div class="reply">
+										2016-11-15 15:37:21
+										<a href="###" id="reply1">回复(1)</a>
+										<a href="###">赞(9)</a>
+									</div>
+								</div>
+								<div class="rep_com" id="rep1">
+									<p>188******36 回复135******41 有异味吗？是不是真的这么好。</p>
+									<p>2016-11-16 10:23:48<span>回复</span></p>
+									<textarea placeholder="回复:188******36"></textarea>
+									<input type="submit" value="提交" />
+									<p>您还可以输入400个字</p>
+								</div>
+								<span></span>
+								<div class="us_com">
+									<div class="portrait">
+										<a href="###"><img src="img/us_com.png" /></a>
+										<a href="###">135******41</a>
+									</div>
+									<p>
+										<a href="###"><img src="img/pxx.png" /></a>
+										<a href="###"><img src="img/pxx.png" /></a>
+										<a href="###"><img src="img/pxx.png" /></a>
+										<a href="###"><img src="img/pxx.png" /></a>
+										<a href="###"><img src="img/pxx.png" /></a>
+									</p>
+									用了几天非常舒服，非常好。好评！赞赞赞！
+									<div class="reply">
+										2016-11-15 15:37:21
+										<a href="###" id="reply2">回复(1)</a>
+										<a href="###">赞(9)</a>
+									</div>
+								</div>
+								<div class="rep_com" id="rep2">
+									<p>188******36 回复135******41 有异味吗？是不是真的这么好。</p>
+									<p>2016-11-16 10:23:48<span>回复</span></p>
+									<textarea placeholder="回复:188******36"></textarea>
+									<input type="submit" value="提交" />
+									<p>您还可以输入400个字</p>
+								</div>
+								<span></span>
+								<div class="us_com">
+									<div class="portrait">
+										<a href="###"><img src="img/us_com.png" /></a>
+										<a href="###">135******41</a>
+									</div>
+									<p>
+										<a href="###"><img src="img/pxx.png" /></a>
+										<a href="###"><img src="img/pxx.png" /></a>
+										<a href="###"><img src="img/pxx.png" /></a>
+										<a href="###"><img src="img/pxx.png" /></a>
+										<a href="###"><img src="img/pxx.png" /></a>
+									</p>
+									用了几天非常舒服，非常好。好评！赞赞赞！
+									<div class="reply">
+										2016-11-15 15:37:21
+										<a href="###" id="reply3">回复(1)</a>
+										<a href="###">赞(9)</a>
+									</div>
+								</div>
+								<div class="rep_com" id="rep3">
+									<p>188******36 回复135******41 有异味吗？是不是真的这么好。</p>
+									<p>2016-11-16 10:23:48<span>回复</span></p>
+									<textarea placeholder="回复:188******36"></textarea>
+									<input type="submit" value="提交" />
+									<p>您还可以输入400个字</p>
+								</div>
+								<span></span>
+								<div class="us_com">
+									<div class="portrait">
+										<a href="###"><img src="img/us_com.png" /></a>
+										<a href="###">135******41</a>
+									</div>
+									<p>
+										<a href="###"><img src="img/pxx.png" /></a>
+										<a href="###"><img src="img/pxx.png" /></a>
+										<a href="###"><img src="img/pxx.png" /></a>
+										<a href="###"><img src="img/pxx.png" /></a>
+										<a href="###"><img src="img/pxx.png" /></a>
+									</p>
+									用了几天非常舒服，非常好。好评！赞赞赞！
+									<div class="reply">
+										2016-11-15 15:37:21
+										<a href="###" id="reply4">回复(1)</a>
+										<a href="###">赞(9)</a>
+									</div>
+								</div>
+								<div class="rep_com" id="rep4">
+									<p>188******36 回复135******41 有异味吗？是不是真的这么好。</p>
+									<p>2016-11-16 10:23:48<span>回复</span></p>
+									<textarea placeholder="回复:188******36"></textarea>
+									<input type="submit" value="提交" />
+									<p>您还可以输入400个字</p>
+								</div>
+								<span></span>
+								<div class="us_com">
+									<div class="portrait">
+										<a href="###"><img src="img/us_com.png" /></a>
+										<a href="###">135******41</a>
+									</div>
+									<p>
+										<a href="###"><img src="img/pxx.png" /></a>
+										<a href="###"><img src="img/pxx.png" /></a>
+										<a href="###"><img src="img/pxx.png" /></a>
+										<a href="###"><img src="img/pxx.png" /></a>
+										<a href="###"><img src="img/pxx.png" /></a>
+									</p>
+									用了几天非常舒服，非常好。好评！赞赞赞！
+									<div class="reply">
+										2016-11-15 15:37:21
+										<a href="###" id="reply5">回复(1)</a>
+										<a href="###">赞(9)</a>
+									</div>
+								</div>
+								<div class="rep_com" id="rep5">
+									<p>188******36 回复135******41 有异味吗？是不是真的这么好。</p>
+									<p>2016-11-16 10:23:48<span>回复</span></p>
+									<textarea placeholder="回复:188******36"></textarea>
+									<input type="submit" value="提交" />
+									<p>您还可以输入400个字</p>
+								</div>
+								<span></span>
+								<div class="us_com">
+									<div class="portrait">
+										<a href="###"><img src="img/us_com.png" /></a>
+										<a href="###">135******41</a>
+									</div>
+									<p>
+										<a href="###"><img src="img/pxx.png" /></a>
+										<a href="###"><img src="img/pxx.png" /></a>
+										<a href="###"><img src="img/pxx.png" /></a>
+										<a href="###"><img src="img/pxx.png" /></a>
+										<a href="###"><img src="img/pxx.png" /></a>
+									</p>
+									用了几天非常舒服，非常好。好评！赞赞赞！
+									<div class="reply">
+										2016-11-15 15:37:21
+										<a href="###" id="reply6">回复(1)</a>
+										<a href="###">赞(9)</a>
+									</div>
+								</div>
+								<div class="rep_com" id="rep6">
+									<p>188******36 回复135******41 有异味吗？是不是真的这么好。</p>
+									<p>2016-11-16 10:23:48<span>回复</span></p>
+									<textarea placeholder="回复:188******36"></textarea>
+									<input type="submit" value="提交" />
+									<p>您还可以输入400个字</p>
+								</div>
+								<span></span>
+								<div class="us_com">
+									<div class="portrait">
+										<a href="###"><img src="img/us_com.png" /></a>
+										<a href="###">135******41</a>
+									</div>
+									<p>
+										<a href="###"><img src="img/pxx.png" /></a>
+										<a href="###"><img src="img/pxx.png" /></a>
+										<a href="###"><img src="img/pxx.png" /></a>
+										<a href="###"><img src="img/pxx.png" /></a>
+										<a href="###"><img src="img/pxx.png" /></a>
+									</p>
+									用了几天非常舒服，非常好。好评！赞赞赞！
+									<div class="reply">
+										2016-11-15 15:37:21
+										<a href="###" id="reply7">回复(1)</a>
+										<a href="###">赞(9)</a>
+									</div>
+								</div>
+								<div class="rep_com" id="rep7">
+									<p>188******36 回复135******41 有异味吗？是不是真的这么好。</p>
+									<p>2016-11-16 10:23:48<span>回复</span></p>
+									<textarea placeholder="回复:188******36"></textarea>
+									<input type="submit" value="提交" />
+									<p>您还可以输入400个字</p>
+								</div>
+								<div class="con_but">
+									<dl>
+										<dd><a href="###">上一页</a></dd>
+										<dd><a href="###" class="on">1</a></dd>
+										<dd><a href="###">2</a></dd>
+										<dd><a href="###">3</a></dd>
+										<dd>...</li>
+										<dd><a href="###">23</a></dd>
+										<dd><a href="###">下一页</a></dd>
+										<dd>向第 <input type="text" class="text_box" maxlength="3" /> 页</dd>
+										<dd><a href="###">跳转</a></dd>
+									</dl>
+								</div>
+							</div>
+							<div class="consul">
+								<h3>好多咨询</h3>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="like">
+			<div class="container">
+				<h2>猜你喜欢</h2>
+					<ul>
+						<li>
+							<a href="pro_details.html">
+								<img src="img/shop_list16.jpg" />
+							</a>
+								<p><span>包邮价</span> ￥86.00</p>
+								<h3> <a href="pro_details.html">地中海风格,迪士尼风格设计儿童床 1.5米单人儿童床</a></h3>
+						</li>
+						<li>
+							<a href="pro_details.html">
+								<img src="img/shop_list17.jpg" />
+							</a>
+								<p><span>包邮价</span> ￥86.00</p>
+								<h3> <a href="pro_details.html">地中海风格,迪士尼风格设计儿童床 1.5米单人儿童床</a></h3>
+						</li>
+						<li>
+							<a href="pro_details.html">
+								<img src="img/shop_list18.jpg" />
+							</a>
+								<p><span>包邮价</span> ￥86.00</p>
+								<h3> <a href="pro_details.html">地中海风格,迪士尼风格设计儿童床 1.5米单人儿童床</a></h3>
+						</li>
+						<li>
+							<a href="pro_details.html">
+								<img src="img/shop_list19.jpg" />
+							</a>
+								<p><span>包邮价</span> ￥86.00</p>
+								<h3> <a href="pro_details.html">地中海风格,迪士尼风格设计儿童床 1.5米单人儿童床</a></h3>
+						</li>
+					</ul>
+			</div>	
+		</div>
+		<div class="buttom">
+			<div class="container">
+				<ul>
+					<li>
+						<img src="img/bottom1.png" /><h2>品质</h2>
+						<h3>全球化采购，正品保障</h3>
+					</li>
+					<li>
+						<img src="img/bottom2.png" /><h2>便捷</h2>
+						<h3>一站式服务，送货上门</h3>
+					</li>
+					<li>
+						<img src="img/bottom3.png" /><h2>专业</h2>
+						<h3>顾问式客服，全年无休</h3>
+					</li>
+					<li>
+						<img src="img/bottom4.png" /><h2>贴心</h2>
+						<h3>个性化导购，售后无忧</h3>
+					</li>
+				</ul>
+				<dl>
+					<dt>购物指南</dt>
+					<dd><a href="###">购物流程</a></dd>
+					<dd><a href="###">常见问题</a></dd>
+					<dd><a href="###">优惠码(卷)</a></dd>
+				</dl>
+				<dl>
+					<dt>支付方式</dt>
+					<dd><a href="###">货到付款</a></dd>
+					<dd><a href="###">在线支付</a></dd>
+				</dl>
+				<dl>
+					<dt>配送方式</dt>
+					<dd><a href="###">运费及时效</a></dd>
+					<dd><a href="###">品牌专场配送方式</a></dd>
+				</dl>
+				<dl>
+					<dt>售后服务</dt>
+					<dd><a href="###">退换货原则</a></dd>
+					<dd><a href="###">退换货流程</a></dd>
+					<dd><a href="###">退换货周期</a></dd>
+				</dl>
+				<dl>
+					<dt>关于我们</dt>
+					<dd><a href="###">企业理念</a></dd>
+					<dd><a href="###">网站合作</a></dd>
+					<dd><a href="###">人才招聘</a></dd>
+				</dl>
+				<dl>
+					<dt>联系我们</dt>
+					<dd><a href="###">新浪微博</a></dd>
+					<dd><a href="###">联系客服</a></dd>
+					<dd><a href="###">我要投诉</a></dd>
+				</dl>
+			</div>
+			<div class="copyright">
+				<div class="container">
+					<ul>
+						<li><a href="index.html">首页</a></li>
+						<li><a href="###">公司简介</a></li>
+						<li><a href="###">人才招聘</a></li>
+						<li><a href="###">合作联系</a></li>
+						<li><a href="###">企业理念</a></li>
+					</ul>
+					<p>由本网站发布的商品或服务的商业宣传活动均属“广告”</p>
+					<p>
+						Copyright&copy;2003 - 2016 广州酷漫儿童家居有限公司 kumanretozijia.com All Rights Reserved 
+						客服热线：021-51830000 5006203000
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="floating">
+			<ul>
+				<li><a href="user.html"><img src="img/you1.png" /></a></li>
+				<li><a href="shop_cart.html"><img src="img/you2.png" /></a></li>
+				<li><a href="###"><img src="img/you3.png" /></a></li>
+				<li><a href="###"><img src="img/you4.png" /></a></li>
+				<li><a href="###"><img src="img/you5.png" /></a></li>
+				<li><a href="###"><img src="img/you6.png" /></a></li>
+				<li><a href="###" id="goTopBtn"><img src="img/you7.png" /></a></li>
+				<li><a href="###"><img src="img/you8.png" /></a></li>
+			</ul>
+		</div>
+	</body>
+	<script type="text/javascript" src="js/common.js" ></script>
+	<script type="text/javascript" src="js/the_price.js" ></script>
+	<script type="text/javascript">
+		$(window).scroll(function(){
+	    	var sc=$(window).scrollTop();
+		    var rwidth=$(window).width()
+		    if(sc>0){
+		    	$("#goTopBtn").css("display","block");
+		    }else{
+		    	$("#goTopBtn").css("display","none");
+		    }
+		})
+		$("#goTopBtn").click(function(){
+		    var sc=$(window).scrollTop();
+		    $('body,html').animate({scrollTop:0},500);
+		})
+		
+		
+		
+		
+//			$(function(){
+//				
+//				var pro = JSON.parse(localStorage.getItem('proList')),
+//					proList = [];
+//					
+//					if(pro != null){
+//						for(var i=0;i<pro.length;i++){
+//							proList.push(pro[i])
+//						}
+//					}
+//					
+//			
+//	
+//				$(".buy #addCar").click(function(){
+//					
+//					var pro_name =	$(".content .title h3").text();
+//					var pro_price = $(".content .price span.sys_item_price").text();
+//					var pro_color = $(".content .size ul li span.on").text();
+//					var pro_size = $(".content .pic_color .on b").text();
+//					var pro_num = $(".buy label .text_box").val();
+//					var imgs = $("#product_img img").attr("src");
+//					for(var j=0;j<proList.length;j++){
+//						
+//						if(pro_color == proList[j].color){
+//							proList[j].number = parseInt(proList[j].number) + parseInt(pro_num);
+//							localStorage.setItem("proList",JSON.stringify(proList));
+//							return false;
+//						}
+//					}
+//					storage(pro_name,pro_price,pro_color,pro_size,pro_num,imgs);
+//					
+//				})
+//				
+//				function storage(name,price,color,size,number,img){
+//					
+//					var product = {
+//						name:name,
+//						price:price,
+//						color:color,
+//						size:size,
+//						number:number,
+//						img:img,
+//					}
+//					proList.push(product);
+//					localStorage.setItem("proList",JSON.stringify(proList))
+//				}
+//				
+//			})
+
+
+$(function(){
+	/**加入购物车***/
+			var proLocal = localStorage.getItem('proList'),  //定义变量proLocal，获取本地存储数据
+				proList = [],//定义数组变量,
+				len,
+				proLocalJson = JSON.parse(proLocal)  //把获取到的字符串数据转换成数组对象
+				if(proLocalJson != null){ //判断本地存储localStorage是否存在proList的值,如果存在，则赋予len的值
+					len =  proLocalJson.length //获取本地存储转换的数组长度
+				}
+				for(var i = 0;i<len;i++){
+					proList.push(proLocalJson[i]) //把数组对象push进数组里面
+				}
+				
+			//点击事件 获取产品详情数据
+			$("#addCar").click(function(){
+				var pro_title = $('.content .title h3').html(),//定义变量，获取产品名称，并赋值给变量pro_title
+					sale_price = $('.content .price span.sys_item_price').html(),//定义变量sale_price,获取产品相关促销价，并赋值给变量sale_price
+					pro_color = $('.content .pic_color .on b').html(),//定义变量pro_color，获取产品颜色
+					pro_pay = $('.content .size ul li span.on').html(),
+					pro_num = $('.buy label .text_box').val(),//定义变量pro_num,获取产品数量
+					pro_image = $('#product_img img').attr('src')//定义变量pro_image,获取产品图片
+				/**
+				 * 为了判断是否为同一个产品颜色，
+				 * 必须遍历出proList的每个对象的产品颜色，
+				 * 让数组的产品颜色与获取到的产品颜色进行对比判断,
+				 * 相似则给数组的产品数量加上input的val值，
+				 * 进行本地存储，
+				 * 接着return false跳出循环 
+				 * */
+				for(var x = 0;x<proList.length;x++){ 
+					if(pro_color == proList[x].color&&pro_pay == proList[x].payment){ 
+						proList[x].number  = parseInt(proList[x].number)+parseInt(pro_num)
+						localStorage.setItem("proList",JSON.stringify(proList))
+						return false;
+					}
+				}
+				localData(pro_title,sale_price,pro_color,pro_pay,pro_num,pro_image)  //调用函数localData(),进行本地存储操作
+			})
+			function localData(title,price,color,payment,number,image){
+				var product = {
+					title:title,
+					price:price,
+					color:color,
+					payment:payment,
+					number:number,
+					image:image
+				}
+				proList.push(product)
+				localStorage.setItem("proList",JSON.stringify(proList))
+			}
+			console.log(localStorage.getItem('proList'))
+})
+		</script>
+</html>

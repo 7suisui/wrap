@@ -1,0 +1,48 @@
+.header .header_con{
+	line-height: 50px;
+	margin-top: 45px;
+	margin-bottom: 20px;
+}
+.header .header_con h2{
+	float: left;
+	font-family: "微软雅黑";
+	font-size: 24px;
+	color: #282727;
+	margin: 15px 0 0 50px;
+}
+.content{
+	overflow: hidden;
+}
+.content .successful{
+	overflow: hidden;
+	margin: 55px 0 0 158px;
+	padding: 20px;
+	background: #f9b2b2;
+	border: 2px solid #ec8d8d;
+	text-align: center;
+	width: 696px;
+}
+.content .successful img{
+	float: right;
+	cursor: pointer;
+}
+.content .successful h3{
+	font-family: "微软雅黑";
+	font-size: 24px;
+	color: #30302f;
+	margin: 80px 0 25px 0;
+}
+.content .successful p{
+	font-family: "宋体";
+	margin: 0px 0px 10px 0;
+	color: #30302f;
+}
+.content .successful a{
+	font-family: "宋体";
+	margin: 35px 20px 100px 20px;
+	color: #30302f;
+	display: inline-block;
+}
+.buttom{
+	border: none;
+}

@@ -1,0 +1,151 @@
+.content{
+	overflow: hidden;
+}
+.content h2{
+	font-size: 14px;
+	margin: 0;
+	line-height: 34px;
+}
+.content h2 a{
+	color: #2b2b2b;
+	font-family: "宋体";
+}
+.content .con_left{
+	overflow: hidden;
+	float: left;
+	text-align: center;
+}
+.content .con_left ul{
+	background: #f3f3f2;
+	border: 1px solid #bcbcbb;
+	width: 170px;
+}
+.content .con_left ul li{
+	font-family: "宋体";
+	padding-bottom: 10px;
+	border-bottom: 1px solid #bcbcbb;
+}
+.content .con_left ul li:nth-child(4){
+	border-bottom: none;
+}
+.content .con_left ul li:nth-child(4) a{
+	text-align: left;
+	padding-left: 50px;
+}
+.content .con_left ul li h3{
+	font-size: 14px;
+	color: #2b2b2b;
+	margin: 15px 0 5px 0;
+}
+.content .con_left ul li a{
+	font-family: "宋体";
+	color: #2b2b2b;
+	display: block;
+	line-height: 25px;
+}
+.content .con_right{
+	overflow: hidden;
+	float: right;
+	width: 1012px;
+}
+.content .con_right h3{
+	font-family: "微软雅黑";
+	font-size: 18px;
+	float: left;
+	margin: 0;
+	margin-left: 8px;
+	line-height: 50px;
+}
+.content .con_right a{
+	font-family: "宋体";
+	color: #252524;
+}
+.content .con_right span{
+	float: right;
+	display: block;
+	line-height: 50px;
+	cursor: pointer;
+	margin-right: 18px;
+}
+.content .con_right ul{
+	width: 100%;
+	overflow: hidden;
+}
+.content .con_right ul li{
+	background: #f5f6f6;
+	border: 1px solid #bcbcbb;
+	padding-left: 24px;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.content .con_right ul li p{
+	font-family: "宋体";
+	font-size: 14px;
+	color: #252524;
+	line-height: 40px;
+}
+.content .con_right ul li p a{
+	font-family: "宋体";
+	color: #252524;
+	margin-left: 175px;
+}
+.content .con_right ul li p a.delete{
+	margin-left: 0;
+}
+.content .con_right ul li p span{
+	margin: 0;
+	float: none;
+	line-height: 20px;
+	display: inline-block;
+	margin-left: 148px;
+}
+.content .con_right ul li p:first-child span{
+	margin-left: 133px;
+}
+.content .con_right ul li .default{
+	display: inline-block;
+	line-height: 40px;
+	width: 138px;
+	border: 1px solid #bcbcbb;
+	border-right: none;
+	background: #d2d2d1;
+	text-align: center;
+	margin: -50px 0 0 0;
+}
+/*.content .con_right ul li:nth-child(3){
+	border-bottom: none;
+	padding: 0;
+}
+.content .con_right ul li:nth-child(3) p{
+	border-bottom: 1px solid #bcbcbb;
+	padding-left: 24px;
+}
+.content .con_right ul li:nth-child(3) .default{
+	margin-top: -42px;
+}*/
+.content .con_right .con_but{
+	float: right;
+	overflow: hidden;
+	margin: 25px 160px 0 0;
+}
+.content .con_right .con_but dl{
+	overflow: hidden;
+}
+.content .con_right .con_but dl dd {
+	float: left;
+	font-family: "宋体";
+	line-height: 15px;
+	margin-left: 5px;
+	background: #fef9f1;
+}
+.content .con_right .con_but dl dd a{
+	color: #4b4a49;
+	font-family: "宋体";
+	display: inherit;
+	background: #ffffff;
+	border: 1px solid #dfb573;
+	padding: 0 5px;
+}
+.content .con_right .con_but dl dd a.on{
+	color: #b87b1d;
+}

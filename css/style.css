@@ -1,0 +1,32 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #f8f0e5;
+}
+li{
+	list-style: none;
+}
+a,a:hover,a:link,a:active,a:visited{
+	text-decoration: none;
+	font-family: "微软雅黑";
+	outline: none;
+}
+p{
+	font-family: "微软雅黑";
+	margin: 0;
+}
+textarea{
+	overflow-y: hidden;
+	resize: none;
+}
+input,textarea,button,label,select{
+	border: 0;
+	outline: none;
+	font-weight: normal;
+}
+label{
+	margin: 0;
+	cursor: pointer;
+}

@@ -1,0 +1,339 @@
+.content{
+	overflow: hidden;
+	clear: none;
+}
+.content .title{
+	overflow: hidden;
+}
+.content .title h2{
+	float: left;
+	margin: 7px 0 0 5px;
+}
+.content .title h2 a{
+	font-family: "微软雅黑";
+	font-size: 24px;
+	color: #2a2a2a;
+	margin: 0;
+}
+.content .title a{
+	float: right;
+	display: inline-block;
+	font-family: "宋体";
+	color: #2a2a2a;
+	margin: 20px 28px 0 0;
+}
+.content .shop_ta{
+	width: 100%;
+	text-align: center;
+	border: 1px solid #cbcbcb;
+	border-bottom: none;
+	background: #f6f4f2;
+}
+.content .shop_ta ul{
+	overflow: hidden;
+}
+.content .shop_ta .cart_nav{
+	overflow: hidden;
+	line-height: 45px;
+	position: relative;
+}
+.content .shop_ta .cart_nav p.information{
+	width: 30%;
+	float: left;
+}
+.content .shop_ta .cart_nav p{
+	font-family: "宋体";
+}
+.content .shop_ta ul li:first-child{
+	border-top: none;
+}
+.content .shop_ta ul li{
+	font-family: "宋体";
+	font-size: 14px;
+	/*border-top: 1px solid #cbcbcb;
+	border-bottom: 1px solid #cbcbcb;*/
+	overflow: hidden;
+	padding-top: 30px;
+	padding-bottom: 5px;
+	margin-top: 20px;
+	float: left;
+	position: relative;
+}
+
+
+.td_info a{
+	font-family: "宋体";
+	font-size: 14px;
+	color: #373737;
+	text-align: left;
+	line-height: 30px;
+	display: block;
+}
+
+
+
+
+
+
+
+.content .shop_ta ul li .check{
+	width: 155px;
+	float: left;
+}
+.content .shop_ta ul li .price{
+	width: 210px;
+	float: left;
+}
+.content .shop_ta ul li .price,
+.content .shop_ta ul li .total,
+.content .shop_ta ul li .subtotal{
+	margin-top: 42px;
+	color: #da1f28;
+}
+.content .shop_ta ul li .delete{
+	margin-top: 25px;
+}
+.content .shop_ta ul li .subtotal{
+	width: 210px;
+	float: left;
+}
+.content .shop_ta ul li .price p,
+.content .shop_ta ul li .subtotal p,
+.content .shop_ta ul li .delete p{
+	text-align: center;
+}
+.content .shop_ta ul li .delete p{
+	cursor: pointer;
+}
+.content .shop_ta ul li img{
+	width: 110px;
+	float: left;
+	margin-right: 10px;
+}
+.content .shop_ta ul li p{
+	font-family: "宋体";
+	color: #373737;
+	line-height: 30px;
+	text-align: left;
+}
+.content .shop_ta ul li h3{
+	margin: 0;
+	float: left;
+	text-align: left;
+}
+.content .shop_ta ul li.td_mun{
+	padding-left: 70px;
+}
+.content .shop_ta ul li.td_op{
+	padding-left: 130px;
+	margin-top: 60px;
+	text-align: left;
+}
+.content .shop_ta ul li.td_op a{
+	line-height: 30px;
+	font-family: "宋体";
+	color: #373737;
+}
+.content .shop_ta ul li h3 a{
+	font-family: "宋体";
+	font-size: 14px;
+	color: #2a2a2a;
+}
+.content .shop_ta ul li span{
+	color: #373737;
+	margin-top: 30px;
+	padding-right: 20px;
+	float: left;
+}
+.content .shop_ta ul li .item_td{
+	display: inline-table;
+}
+.content .shop_ta ul li span em{
+	font-style: normal;
+}
+.content .shop_ta ul li span img{
+	width: 15px;
+	float: none;
+	margin-bottom: 3px;
+	margin-left: 3px;
+}
+.content .shop_ta ul li span.minus img{
+	margin-top: 2px;
+}
+.content .shop_ta ul li span.minus,
+.content .shop_ta ul li span.plus{
+	margin-top: 40px;
+}
+.content .shop_ta ul li .count {
+	border: 1px solid #bbb9b7;
+	display: inline-block;
+	margin-top: 40px;
+	width: 88px;
+	float: left;
+}
+.content .shop_ta ul li.td_amount  span{
+	width: 24px;
+	cursor: pointer;
+	line-height: 24px;
+	height: 26px;
+	text-align: center;
+	display: inline-block;
+	border: 1px solid #aeadac;
+	float: left;
+}
+.content .shop_ta ul li.td_amount input[type="text"]{
+	width: 38px;
+	text-align: center;
+	line-height: 24px;
+	background: #f6f4f2;
+	float: left;
+}
+.content .shop_ta ul li .collec{
+	color: #2a2a2a;
+	display: block;
+	font-family: "宋体";
+	cursor: pointer;
+	line-height: 30px;
+}
+.content .shop_ta ul li label{
+	margin-top: 42px;
+	width: 27px;
+}
+.content .shop_ta .settlement{
+	overflow: hidden;
+	line-height: 58px;
+	position: relative;
+	border-top: 1px solid #cbcbcb;
+	border-bottom: 1px solid #cbcbcb;
+	margin-top: 26px;
+}
+.content .shop_ta .settlement a{
+	display: inline-block;
+	color: #2a2a2a;
+	font-family: "宋体";
+	margin-left: 30px;
+	float: left;
+}
+.content .shop_ta .settlement p{
+	float: right;
+	font-size: 24px;
+	color: #2a2a2a;
+}
+.content .shop_ta .settlement input[type="submit"]{
+	float: right;
+	font-size: 18px;
+	font-family: "微软雅黑";
+	color: #eeeae4;
+	background: #d2892a;
+	display: inherit;
+	width: 120px;
+	line-height: 35px;
+	margin: 11px 28px 0 80px;
+}
+
+.content label{
+	margin-left: 10px;
+	padding-left: 10px;
+	float: left;
+}
+
+.cart_nav label{
+	cursor:pointer;
+	font-family: "宋体";
+	font-size: 14px;
+	font-weight: normal;
+	margin-right: 30px;
+	margin-bottom: 0;
+}
+.cart_nav label input{
+	visibility: hidden;
+}
+.item_td label input{
+	visibility: hidden;
+}
+.cart_nav label i{
+	position: absolute;
+	display: block;
+	width: 15px;
+	height: 15px;
+	border: 1px solid #bbb9b7;
+	top: 15px;
+	left: 10px;
+	background: #f6f4f2;
+}
+.cart_nav label input:checked + i:after{
+	content:"";
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	background: url(../img/fx6.png) no-repeat center;
+	top: -1px;
+	left: -1px;
+}
+
+
+.cart_product label{
+	cursor:pointer;
+	font-weight: normal;
+	float: left;
+}
+.cart_product label input{
+	visibility: hidden;
+}
+.cart_product label i{
+	position: absolute;
+	display: block;
+	width: 15px;
+	height: 15px;
+	border: 1px solid #bbb9b7;
+	top: 80px;
+	left: 10px;
+	background: #f6f4f2;
+}
+.cart_product label input:checked + i:after{
+	content:"";
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	background: url(../img/fx6.png) no-repeat center;
+	top: -1px;
+	left: -1px;
+}
+label{
+	background: url(../img/fx5.png) no-repeat center left;
+}
+label.on,label.active{
+	background: url(../img/fx6.png) no-repeat center left;
+}
+
+
+.settlement label{
+	cursor:pointer;
+	font-family: "宋体";
+	font-size: 14px;
+	font-weight: normal;
+	margin-right: 30px;
+	margin-bottom: 0;
+}
+.settlement label input{
+	visibility: hidden;
+}
+.settlement label i{
+	position: absolute;
+	display: block;
+	width: 15px;
+	height: 15px;
+	border: 1px solid #bbb9b7;
+	top: 20px;
+	left: 10px;
+	background: #f6f4f2;
+}
+.settlement label input:checked + i:after{
+	content:"";
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	background: url(../img/fx6.png) no-repeat center;
+	top: -1px;
+	left: -1px;
+}

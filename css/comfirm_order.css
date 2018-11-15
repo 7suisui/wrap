@@ -1,0 +1,148 @@
+.content{
+	overflow: hidden;
+}
+.content .con_top{
+	overflow: hidden;
+	width: 100%;
+	border: 1px solid #989897;
+	border-top: none;
+}
+.content .con_top h2{
+	font-family: "微软雅黑";
+	color: #2a2a2a;
+	font-size: 24px;
+	margin: 7px 20px 25px 0;
+}
+.content .con_top h2 a{
+	font-family: "宋体";
+	font-size: 14px;
+	color: #2A2A2A;
+	float: right;
+	line-height: 45px;
+	margin-right: 30px;
+}
+.content .con_top h3{
+	font-family: "微软雅黑";
+	color: #2a2a2a;
+	font-size: 18px;
+	margin: 0;
+	line-height: 45px;
+	border-top: 1px solid #989897;
+	padding-left: 15px;
+}
+.content .con_left{
+	overflow: hidden;
+	padding: 14px;
+}
+.content .con_left .con_on{
+	width: 319px;
+	overflow: hidden;
+	border: 1px solid #bcbcbb;
+	background: #f6f4f2;
+	padding: 12px 17px;
+	float: left;
+}
+.content .con_left .con_on p{
+	font-family: "微软雅黑";
+	font-size: 24px;
+	color: #2A2A2A;
+}
+.content .con_left .con_on p a{
+	font-family: "宋体";
+	font-size: 14px;
+	color: #2a2a2a;
+	float: right;
+	margin-right: 15px;
+}
+.content .con_left .con_on span{
+	font-family: "宋体";
+	font-size: 14px;
+	color: #be1323;
+	display: inline-block;
+	margin-top: 140px;
+}
+.content .con_left .con_add{
+	width: 319px;
+	overflow: hidden;
+	border: 1px solid #bcbcbb;
+	background: #e3e2e0;
+	float: left;
+	text-align: center;
+	line-height: 252px;
+	margin-left: 50px;
+	font-family: "微软雅黑";
+	font-size: 72px;
+	cursor: pointer;
+}
+.content .con_but{
+	overflow: hidden;
+	width: 100%;
+}
+.content .con_but h3{
+	margin: 0;
+	line-height: 56px;
+	font-family: "微软雅黑";
+	font-size: 24px;
+	padding: 0 14px;
+	border: 1px solid #989897;
+	border-bottom: none;
+}
+.content .con_but a{
+	float: right;
+	color: #2b2b2b;
+	font-family: "宋体";
+	font-size: 14px;
+}
+.content .con_but table{
+	width: 100%;
+}
+.content .con_but table tr{
+	border: 1px solid #989897;
+}
+.content .con_but table th{
+	font-weight: normal;
+	text-align: center;
+	line-height: 45px;
+}
+.content .con_but table td{
+	text-align: center;
+	line-height: 60px;
+}
+.content .con_but table td p{
+	font-family: "宋体";
+	line-height: 30px;
+	padding-left: 20px;
+	text-align: left;
+}
+.content .con_but table td:first-child{
+	width: 330px;
+}
+.content .con_but textarea{
+	padding: 5px;
+	width: 978px;
+	height: 103px;
+	border: 1px solid #989897;
+	margin-top: 10px;
+}
+.content .con_but input[type="button"]{
+	width: 200px;
+	line-height: 103px;
+	background: #F8F0E5;
+	color: #d2892a;
+	border: 1px solid #989897;
+	float: right;
+	margin-top: 10px;
+	font-family: "微软雅黑";
+	font-size: 18px;
+}
+.content .con_but button{
+	width: 418px;
+	line-height: 103px;
+	float: right;
+	background: #D2892A;
+	border: 1px solid #989897;
+	color: #fff;
+	font-family: "微软雅黑";
+	margin-top: 10px;
+	font-size: 24px;
+}
